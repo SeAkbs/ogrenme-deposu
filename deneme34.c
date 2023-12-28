@@ -7,7 +7,10 @@ Telefon görüþmesinin süresini dakika cinsinden girdi olarak alaa ve ücretini hes
 
 int main(){
  float talktime,fee;
-
+char c;
+printf("\nenter any character : ");
+scanf("%c",&c);
+printf("\nyour character : %c ",c);
 printf("\nenter the phone talk time : ");
 scanf("%f",&talktime);
 if (talktime<=4.0){
@@ -16,7 +19,7 @@ if (talktime<=4.0){
 else{
 	fee=0.30+(talktime-4)*0.07;
 }
-printf("fee: %.3f tl \n", fee);
+printf(" fee: %.3f tl \n", fee);
 
 
 
