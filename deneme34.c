@@ -17,7 +17,7 @@ else{
 }
 printf(" fee: %.3f tl \n", fee);
 
-printf("\n\n");
+printf("\n");
 
 return 0;
 } 
